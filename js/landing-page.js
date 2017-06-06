@@ -37,6 +37,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
+moment.tz.add('America/New_York|EST EDT|50 40|0101|1Lz50 1zb0 Op0');
 var wedding = moment.tz("2017-08-12 16:00", "America/New_York");
 var deadline = new Date(Date.parse(wedding.format()));
 initializeClock('clockdiv', deadline);
