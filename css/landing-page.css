@@ -17,12 +17,28 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Ledger', serif;
     font-weight: 700;
 }
 
+.huge {
+    font-size: 100px;
+}
+
+.cursive {
+    font-family: 'Dancing Script', cursive;
+}
+
+.cursive-2 {
+    font-family: 'Nixie One', cursive;
+}
+
+.serif {
+    font-family: 'EB Garamond', serif;
+}
+
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -31,12 +47,14 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 500px;
+    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/1.jpg) no-repeat center center;
     background-size: cover;
+    margin: auto;
 }
 
 .intro-message {
@@ -47,39 +65,35 @@ h6 {
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 5em;
 }
 
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
     }
-
     .intro-message > h1 {
         font-size: 3em;
     }
-
     ul.intro-social-buttons > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
-
     ul.intro-social-buttons > li:last-child {
         margin-bottom: 0;
     }
-
     .intro-divider {
         width: 100%;
     }
@@ -114,7 +128,7 @@ h6 {
 }
 
 .banner {
-    padding: 100px 0;
+    padding: 300px 0;
     color: #f8f8f8;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
@@ -122,7 +136,7 @@ h6 {
 
 .banner h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 3em;
 }
 
@@ -145,16 +159,14 @@ h6 {
 @media(max-width:767px) {
     .banner h2 {
         margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
         font-size: 3em;
     }
-
     ul.banner-social-buttons > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
-
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
@@ -169,31 +181,38 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-
-#clockdiv{
-    font-family: sans-serif;
+#clockdiv {
+    font-family: 'Dancing Script', cursive;
     color: #fff;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 30px;
+    font-size: 45px;
+        background: rgba(255,255,255,0.3);
+    padding: 30px;
+    border-radius: 5px;
+
 }
 
-#clockdiv > div{
+#clockdiv > div {
     padding: 10px;
     border-radius: 3px;
-    background: #00BF96;
     display: inline-block;
 }
 
-#clockdiv div > span{
-    padding: 15px;
+#clockdiv div > span {
+    padding: 20px;
+    width: 90px;
     border-radius: 3px;
     background: #00816A;
     display: inline-block;
 }
 
-.smalltext{
+.smalltext {
     padding-top: 5px;
     font-size: 16px;
+}
+
+\ .auto {
+    margin: auto;
 }
