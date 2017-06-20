@@ -27,6 +27,7 @@ h6 {
 
 .cursive {
     font-family: 'Dancing Script', cursive;
+    letter-spacing: 2px;
 }
 
 .cursive-2 {
@@ -63,7 +64,7 @@ h6 {
     padding-bottom: 20%;
 }
 
-.intro-message > h1 {
+.intro-message>h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 5em;
@@ -75,7 +76,7 @@ h6 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.intro-message > h3 {
+.intro-message>h3 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
@@ -83,15 +84,15 @@ h6 {
     .intro-message {
         padding-bottom: 15%;
     }
-    .intro-message > h1 {
+    .intro-message>h1 {
         font-size: 3em;
     }
-    ul.intro-social-buttons > li {
+    ul.intro-social-buttons>li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
-    ul.intro-social-buttons > li:last-child {
+    ul.intro-social-buttons>li:last-child {
         margin-bottom: 0;
     }
     .intro-divider {
@@ -162,12 +163,12 @@ h6 {
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
         font-size: 3em;
     }
-    ul.banner-social-buttons > li {
+    ul.banner-social-buttons>li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
-    ul.banner-social-buttons > li:last-child {
+    ul.banner-social-buttons>li:last-child {
         margin-bottom: 0;
     }
 }
@@ -188,19 +189,18 @@ p.copyright {
     font-weight: 100;
     text-align: center;
     font-size: 45px;
-        background: rgba(255,255,255,0.3);
+    background: rgba(255, 255, 255, 0.3);
     padding: 30px;
     border-radius: 5px;
-
 }
 
-#clockdiv > div {
+#clockdiv>div {
     padding: 10px;
     border-radius: 3px;
     display: inline-block;
 }
 
-#clockdiv div > span {
+#clockdiv div>span {
     padding: 20px;
     width: 90px;
     border-radius: 3px;
